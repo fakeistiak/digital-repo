@@ -58,5 +58,48 @@ background:linear-gradient(45deg,#0d0000,#000);
     border: none;
     border-radius:0px;
 }
-  
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
  
+}
+  .about-title{
+    text-align: center;
+  }
+   
+  .boxes{
+    height: 250px;
+    width: 280px;
+    box-shadow: 4px 4px 15px purple ;
+    padding: 15px;
+    background-color: black;
+    padding: 15px;
+    color: white;
+   text-align: center;
+   
+  }
+  .icon{
+    width: 70px;
+  }
+  .box-btn{
+    background-color:aqua ;
+    margin-top: 10px;
+    color: black;
+  }
+ .box-description{
+    padding: 5px;
+ }
+ .box-title{
+    padding: 10px;
+ }
+ .service-container{
+    display: flex;
+     align-items: center;
+     background-color: black;
+     justify-content: center;
+     padding: 40px;
+     border-color: white;
+ }
